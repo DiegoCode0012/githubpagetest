@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/cabecera.css">
+	<link rel="stylesheet" type="text/css" href="css/aboutMe.css">
+	<link rel="stylesheet" type="text/css" href="css/proyectos.css">
+	<link rel="stylesheet" type="text/css" href="css/conocimientos.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class="menosPadding">
+	<header>
+		<div class="contenedorCabecera">
+		
+			<div><strong> <a href="#">Inicio</a></strong></div>
+			<div><strong><a href="#SobreMi">Sobre Mí</a></strong></div>
+			<div><strong><a href="#Proyectos">Proyectos</a></strong></div>
+			<div><strong><a href="#Conocimientos2">Conocimientos</a></strong></div>
+	</div>
+</header>
+
+	<div class="hola">
+		<div> 
+			<p id="MiNombre"></p>
+			<p>Gmail:diegoburneoh@gmail.com</p>
+			<button><a href="https://drive.google.com/file/d/1VOQzZBjKSepYzNnESEWrDxPDCHqacJex/view?usp=sharing">Ver CV</a></button><br>
+			<a href="https://www.linkedin.com/in/diego-burneo-huayas-a1b9411ab/"><img class="imgRedes" src="img/linkedin.png"></a>
+			<a href="https://github.com/DiegoCode0012"><img class="imgRedes"  src="img/git.png"></a>
+		</div>
+		<div class="contenedorImagenHola">
+				<img src="img/fotoImportante.PNG"/>
+		</div>
+	
+	</div>
+	<div id="SobreMi"  class="SobreMi">
+		<h3>Sobre Mi</h3>
+	</div>
+
+	<div class="about">
+			<div class="contenedorImagen">
+			<img src="img/fotoImportante.PNG"/>
+			</div>
+		<div class="SobreDiego">
+			<h3 style="text-align: center;">Diego Burneo</h3>
+			<div>
+			<p>Soy estudiante de 10 ciclo de la carrera de Ingeniería de Sistemas, soy un apasionado
+				por la programación Backend y Front, su funcionalidad y su ciclo de vida. Me gusta la investigar
+				sobre las ultimas tecnologías y aplicarlas en el mundo laboral y personal.
+			</p>
+		</div>
+		</div>
+	</div>
+
+	<div class="ProyectosH3">
+		<h3>Proyectos</h3>
+	</div>
+	
+
+	<div id="Proyectos" class="Proyectos">
+		<!-- Primer Proyecto -->
+		<div class="itemProyecto" data-bs-toggle="modal" data-bs-target="#VentaModal">
+		  <img src="img/ecommerce/catalogo.png" alt="E-commerce">
+		  <div class="descripcionProyecto">
+			<strong><p style="padding: 10px;">Sistema E-commerce de baterías con PHP + Javascript</p></strong>
+			<a href="https://github.com/DiegoCode0012/E-Commerce"><img class="imgRedes" src="img/git.png"></a>
+			<a href="https://www.youtube.com/watch?v=owHO_nIRkxU&t=1s"><img style="width: 50px;" src="img/youtube.png"></a>
+		  </div>
+		</div>
+		
+		<!-- Segundo Proyecto -->
+		<div class="itemProyecto" data-bs-toggle="modal" data-bs-target="#habitacionModal">
+			<img src="img/booking/portada.png" alt="Hotel System">
+			<div class="descripcionProyecto">
+			  <strong><p style="padding: 10px;">Sistema de Reservas Full Stack con Spring Java + Angular</p></strong>
+			  <a href="https://github.com/DiegoCode0012/ReservaStack"><img class="imgRedes" src="img/git.png"></a>
+			  <a href="https://www.youtube.com/watch?v=mNK0fAwu-j4"><img style="width: 50px;" src="img/youtube.png"></a>
+			</div>
+		  </div>
+	  </div>
+	  
+	  <div class="modal fade" id="VentaModal" tabindex="-1" aria-labelledby="VentaModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+			<div class="modal-header bg-black">
+			  <h2 style="color:white" class="modal-title" id="VentaModalLabel">Imágenes del Proyecto</h2>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+			  <div class="row mt-3">
+				<!-- Carousel Section -->
+				<div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+					<!-- Imagen 1 -->
+					<div class="carousel-item active">
+					  <img src="img/ecommerce/catalogo.png" class="d-block w-100" alt="Proyecto E-commerce">
+					</div>
+					<!-- Imagen 2 -->
+					<div class="carousel-item">
+					  <img src="img/ecommerce/carro.png" class="d-block w-100" alt="Proyecto E-commerce 2">
+					</div>
+					<!-- Imagen 3 -->
+					<div class="carousel-item">
+					  <img src="img/ecommerce/pago.png" class="d-block w-100" alt="Proyecto E-commerce 3">
+					</div>
+					<div class="carousel-item">
+						<img src="img/ecommerce/admin.png" class="d-block w-100" alt="Proyecto E-commerce 3">
+					  </div>
+				  </div>
+				  <!-- Controles del carousel -->
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+					</div>
+				</div>
+				<!-- Botón de Cierre -->
+				<div class="d-flex justify-content-end mt-4">
+					<button class="btn btn-secondary m-2" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+	  <div class="modal fade" id="habitacionModal" tabindex="-1" aria-labelledby="habitacionModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+		  <div class="modal-content">
+			<div class="modal-header bg-black">
+			  <h2 style="color:white" class="modal-title" id="habitacionModalLabel">Imágenes del Proyecto</h2>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+			  <div class="row mt-3">
+				<div id="carouselExampleRide2" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+					<!-- Imagen 1 -->
+					<div class="carousel-item active">
+					  <img src="img/booking/proyecto_hotel.png" class="d-block w-100" alt="Proyecto Hotel">
+					</div>
+					<!-- Imagen 2 -->
+					<div class="carousel-item">
+					  <img src="img/booking/pasarela.png" class="d-block w-100" alt="Pasarela">
+					</div>
+					<!-- Imagen 3 -->
+					<div class="carousel-item">
+					  <img src="img/booking/finalizado.png" class="d-block w-100" alt="Finalizado">
+					</div>
+					<!-- Imagen 4 -->
+					<div class="carousel-item">
+					  <img src="img/booking/personal.png" class="d-block w-100" alt="Personal">
+					</div>
+					<!-- Imagen 5 -->
+					<div class="carousel-item">
+					  <img src="img/booking/admin.png" class="d-block w-100" alt="Admin">
+					</div>
+				  </div>
+				  <!-- Controles del carousel -->
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide2" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide2" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			  </div>
+			  <!-- Botón de Cierre -->
+			  <div class="d-flex justify-content-end mt-4">
+				<button class="btn btn-secondary m-2" data-bs-dismiss="modal">Cerrar</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+
+
+
+	<div id="Conocimientos2"  class="ProyectosH3">
+		<h3>Skills</h3>
+	</div>
+	<div class="alinear">
+	 <strong><p>Mis lenguajes, frameworks,base de datos,herramientas</p></strong>
+</div>
+
+<div class="alinear color">
+	<strong><p>Lenguajes</p></strong>
+</div>
+
+<div class="conocimientos">
+	<div>
+	<img src="imgConocimiento/java.png">
+	</div>
+	<div>
+	<img src="imgConocimiento/csharp.png">
+</div>
+<div>
+	<img src="imgConocimiento/php.png">
+</div>
+<div>
+	<img src="imgConocimiento/html.png">
+</div>
+<div>
+	<img src="imgConocimiento/css.png">
+</div>
+<div>
+	<img src="imgConocimiento/javascript.png">
+</div>
+</div>
+
+
+<div class="alinear color">
+	<strong><p>Frameworks</p></strong>
+</div>
+<div class="conocimientos">
+	<div>
+	<img src="imgConocimiento/spring.png">
+</div>
+<div>
+	<img src="imgConocimiento/boostrap.jpg">
+</div>
+<div>
+	<img src="imgConocimiento/angular.png">
+</div>
+<div>
+	<img src="imgConocimiento/entityFramework.jpg">
+</div>
+</div>
+
+
+<div class="alinear color">
+	<strong><p>Base de Datos</p></strong>
+</div>
+
+<div class="conocimientos">
+	<div>
+	<img src="imgConocimiento/sql.png">
+</div>
+<div>
+	<img src="imgConocimiento/mysql.png">
+</div>
+<div>
+	<img src="imgConocimiento/mongoDB.png">
+</div>
+</div>
+
+<div class="alinear color">
+	<strong><p>Herramientas</p></strong>
+</div>
+<div class="conocimientos">
+
+	<div>
+		<img src="imgConocimiento/jwt.png">
+	</div>
+	<div>
+		<img src="imgConocimiento/postman.png">
+	</div>
+	<div>
+		<img src="imgConocimiento/jquery.png">
+	</div>
+	<div>
+		<img src="imgConocimiento/nodejs.png">
+	</div>
+	<div>
+		<img src="imgConocimiento/git.png">
+	</div>
+</div>
+</div>
+<script>
+	function escribirOracionAutomaticamente() {
+  let indice = 0;
+  const velocidadEscritura = 100; // Velocidad de escritura en milisegundos por carácter
+  const oracion = "Hola soy Diego Backend Developer";
+  const elementoOracion = document.getElementById("MiNombre");
+
+  function escribirCaracter() {
+    if (indice < oracion.length) {
+      elementoOracion.textContent += oracion.charAt(indice);
+      indice++;
+      setTimeout(escribirCaracter, velocidadEscritura);
+    }
+  }
+
+  escribirCaracter();
+}
+
+// Llama a la función cuando la página se carga
+window.onload = escribirOracionAutomaticamente;
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

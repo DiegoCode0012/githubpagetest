@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.alinear{
+    text-align: center;
+    margin: 20px;
+}
+.color{
+    color: #999DD5;
+}
+.ProyectosH3 h3{
+    border-bottom: 4px solid #353FE0;
+    padding-bottom: 10px;
+    color: #353FE0;
+}
+.conocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conocimientos div{
+    max-width: 70px;
+  margin: 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0,0, 0.2);
+}
+.conocimientos div img{
+ width: 100%;
+}

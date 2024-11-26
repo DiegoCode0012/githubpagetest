@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif ;
+
+}
+.contenedorCabecera{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+    justify-content: flex-end;
+    position: fixed;
+    margin-top: -100px;
+    width: 100%;
+}
+.contenedorCabecera div{
+	margin: 20px;
+}
+.contenedorCabecera div a{
+	text-decoration: none;
+    color: black;
+}
+.contenedorCabecera div a:hover{
+    filter: invert(79%) sepia(14%) saturate(2077%) hue-rotate(330deg) brightness(93%) contrast(103%);
+}
+
+.menosPadding{
+    padding-top: 100px;
+}
+
